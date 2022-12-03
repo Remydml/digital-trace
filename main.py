@@ -13,7 +13,7 @@ src="https://www.googletagmanager.com/gtag/js?id=G-R012264CT4"></script>
  window.dataLayer = window.dataLayer || [];
  function gtag(){dataLayer.push(arguments);}
  gtag('js', new Date());
- gtag('config', ' YOUR_GA_CODE');
+ gtag('config', 'G-R012264CT4');
 </script>
  """
  return prefix_google + "Hello World"
