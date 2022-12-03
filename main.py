@@ -1,4 +1,4 @@
-from flask import Flask
+rom flask import Flask
 
 app = Flask(__name__)
 
@@ -17,6 +17,3 @@ src="https://www.googletagmanager.com/gtag/js?id=G-R012264CT4"></script>
 </script>
  """
  return prefix_google + "Hello World"
-
-def app(event):
-    return "Hello, world!"
